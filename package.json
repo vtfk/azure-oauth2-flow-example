@@ -1,0 +1,20 @@
+{
+  "name": "azure-oauth2-flow-example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "keywords": [],
+  "author": "Rune Moskvil Lyngås <rune.moskvil.lyngaas@vtfk.no> (https://github.com/runely)",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "16.0.4"
+  },
+  "dependencies": {
+    "axios": "0.24.0",
+    "dotenv": "14.1.0",
+    "qs": "6.10.3"
+  }
+}
