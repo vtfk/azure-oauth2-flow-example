@@ -34,6 +34,13 @@ To get data from `API Management`, you will have to create a new `App registrati
     API_URL=https://management.azure.com/subscriptions/<subscriptionId>/resourceGroups/<resourceGroupName>/providers/Microsoft.ApiManagement/service/<serviceName>/apis?api-version=2021-08-01
     ```
 
+### Get info for a specific API
+
+1. Add `API_URL` to your `.env` file:
+    ```bash
+    API_URL=https://management.azure.com/subscriptions/<subscriptionId>/resourceGroups/<resourceGroupName>/providers/Microsoft.ApiManagement/service/<serviceName>/apis/<apiId>?api-version=2021-08-01
+    ```
+
 ### Get operations for an API
 
 1. Add `API_URL` to your `.env` file:
